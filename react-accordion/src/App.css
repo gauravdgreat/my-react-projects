@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #121212; /* Dark background */
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #e0e0e0; /* Light text color for readability */
+}
+
+.App h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ff5f5f, #fbc2eb); /* Soft pink and red gradient */
+  border: none;
+  border-radius: 15px;
+  padding: 15px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for a lifted effect */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+  margin: 50px auto;
+  max-width: fit-content;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+}
+
+.App h1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+.accordion {
+  margin: 20px 0;
+  border: 1px solid #333; /* Dark border for better contrast */
+  border-radius: 5px;
+  background: #1e1e1e; /* Dark background for accordion */
+}
+
+.accordion-header {
+  color: #f1c40f; /* Bright yellow-orange for header text */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  background: #2c3e50; /* Darker shade for background */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow for text */
+}
+
+.accordion-header:hover {
+  background: #34495e; /* Lighter shade for hover effect */
+  transform: scale(0.98); /* Slight scale down on hover */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); /* Soft shadow on hover */
+}
+
+.accordion-content {
+  padding: 10px 15px;
+  border-top: 1px solid #444; /* Slightly lighter border for separation */
+  background: #212121; /* Dark background for content */
+}
