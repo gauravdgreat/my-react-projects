@@ -25,6 +25,18 @@ This repository contains various React projects that I have worked on. Each proj
 https://github.com/user-attachments/assets/263346ca-0e7c-4958-935b-312709783d22
 
 
+
+
+### 2. React Random Color Generator
+**Description:** A random color generator with dynamic color generation.
+****Video Demo:**
+
+
+https://github.com/user-attachments/assets/0a3b5ad3-46ee-4b1a-b6db-8fe0a5e7cae8
+
+
+
+
 ---
 
 ## How to Contribute
@@ -32,6 +44,8 @@ If you'd like to contribute to this repository:
 1. Fork the repo.
 2. Create a new branch for your changes.
 3. Submit a pull request with a description of your changes.
+
+
 
 ---
 
